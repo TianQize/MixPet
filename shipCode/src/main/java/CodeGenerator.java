@@ -33,12 +33,12 @@ public class CodeGenerator {
                 // ============模板配置============
                 .templateConfig(builder -> builder.disable(TemplateType.ENTITY)
                         .disable(TemplateType.ENTITY)
-                        .entity("/templates/normal/entity.java")
-                        .service("/templates/normal/service.java")
-                        .serviceImpl("/templates/normal/serviceImpl.java")
-                        .mapper("/templates/normal/mapper.java")
-                        .xml("/templates/normal/mapper.xml")
-                        .controller("/templates/normal/controller.java"))
+                        .entity("/templates/entity.java")
+                        .service("/templates/service.java")
+                        .serviceImpl("/templates/serviceImpl.java")
+                        .mapper("/templates/mapper.java")
+                        .xml("/templates/mapper.xml")
+                        .controller("/templates/controller.java"))
                 // ============策略配置============
                 .strategyConfig(builder -> builder
                         // 需要生成的表名,注掉则为生成所有表
