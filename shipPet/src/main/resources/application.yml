@@ -5,10 +5,12 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/pet_ship?useSSL=true
     username: root # mysql用户名
-    password: MC@:(==ni2024 # mysql密码
+    password: 123456 # mysql密码
   mail:
     host: smtp.qq.com # 邮箱配置，账号与授权码在dev中
     port: 587
+    username: 3063400699@qq.com # 发送者的邮箱，必须是QQ邮箱
+    password: vemfyuydtjlwdcih # 发送者邮箱的授权码
     default-encoding: UTF-8
   servlet:
     multipart:
